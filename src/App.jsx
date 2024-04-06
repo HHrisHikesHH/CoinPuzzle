@@ -40,9 +40,9 @@ function App() {
       setCoin(prevCoin => prevCoin - draw);
     }
     else {
-        setCpuDraw(updatedCoin - 1);
-        setCoin(1);
-        setWin(currentUser);
+      setCpuDraw(updatedCoin - 1);
+      setCoin(1);
+      setWin(currentUser);
     }
   }
 
@@ -66,15 +66,15 @@ function App() {
 
           <h5><span>Choose value to be decremented</span></h5>
 
-          <input type="button" className="btn"  value="1" onClick={decrement} disabled={coin < 1}/>
-          <input type="button" className="btn"  value="2" onClick={decrement} disabled={coin < 2}/>
-          <input type="button" className="btn"  value="3" onClick={decrement} disabled={coin < 3}/>
-          <input type="button" className="btn"  value="4" onClick={decrement} disabled={coin < 4}/>
-          <input type="button" className="btn"  value="5" onClick={decrement} disabled={coin < 5}/>
-          <input type="button" className="btn"  value="6" onClick={decrement} disabled={coin < 6}/>
-        
-            <h2>Computer chose : <span>{cpuDraw}</span></h2>
-            
+          <input type="button" className="btn" value="1" onClick={decrement} disabled={coin < 1} />
+          <input type="button" className="btn" value="2" onClick={decrement} disabled={coin < 2} />
+          <input type="button" className="btn" value="3" onClick={decrement} disabled={coin < 3} />
+          <input type="button" className="btn" value="4" onClick={decrement} disabled={coin < 4} />
+          <input type="button" className="btn" value="5" onClick={decrement} disabled={coin < 5} />
+          <input type="button" className="btn" value="6" onClick={decrement} disabled={coin < 6} />
+
+          <h2>Computer chose : <span>{cpuDraw}</span></h2>
+
         </div>
       )}
     </>
