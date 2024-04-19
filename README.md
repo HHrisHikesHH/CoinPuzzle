@@ -1,5 +1,6 @@
 # CoinPuzzle -> REACT + VITE app
-
+## see in actions 
+#### https://hhrishikeshh.github.io/CoinPuzzle/ ❌
 ### Rules : last one to draw puzzle loses, coins can be only drawn between 1 - 6
 
 ### Play!!
